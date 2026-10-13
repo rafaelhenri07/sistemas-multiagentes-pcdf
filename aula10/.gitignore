@@ -1,0 +1,11 @@
+# Segredos e ambiente virtual (NUNCA commitar)
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+
+# Arquivos gerados ao rodar o exercício (o .env já é ignorado pelo .gitignore da raiz)
+saidas/*
+!saidas/.gitkeep
+saidas/checkpoints.db
